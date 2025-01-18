@@ -44,7 +44,7 @@ if [[ -z "$filename" ]]; then
   exit 1
 fi
 
-echo "The following file will be deled: $filename"
+echo "The following file will be deleted: $filename"
 echo
 
 echo -n "Do you want to continue? (y/n): "
