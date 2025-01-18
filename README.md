@@ -1,6 +1,6 @@
 # Git Cleaner
 
-This script helps you clean the history of a Git repository by deleting a specified file from the repository's history using the BFG Repo-Cleaner.
+This script helps you clean the history of a Git repository by deleting a specified file from the whole repository's history. It might be important to remove sensitive information from the repository's history, like passwords, API keys, or other confidential data, which may be stored in `.env` filed, or similar to them.
 
 ## Prerequisites
 
@@ -11,9 +11,9 @@ This script helps you clean the history of a Git repository by deleting a specif
 ## Usage
 
 **Ensure prerequisites are met:**
-    - Java is installed.
-    - `tput` is installed.
-    - The BFG Repo-Cleaner (`bfg`) is in the local directory.
+- Java is installed.
+- `tput` is installed.
+- The BFG Repo-Cleaner (`bfg`) is in the local directory.
 
 To run the `git-cleaner.sh` script, you need to ensure that all prerequisites are met and then execute the script with the necessary inputs. Here is an example of a full working command sequence:
 
